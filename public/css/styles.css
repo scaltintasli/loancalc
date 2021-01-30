@@ -1,0 +1,201 @@
+body{
+    background-color: white;
+}
+
+#ex1Slider .slider-selection {
+  background: #BABABA;
+}
+
+p.p1 {
+    text-align: center;
+    margin: auto; /* top/bottom 25px, left/right 200px */
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+p.p2 {
+    text-align: center;
+    margin: auto; /* top/bottom 25px, left/right 200px */
+    padding-top: 50px;
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+}
+
+p.err {
+    text-align: center;
+    color:red;
+}
+h3.err {
+    text-align: center;
+    color:red;
+    margin-bottom: 5px;
+}
+
+p.resultText {
+font-size: 1.5rem;
+font-family: "Montserrat", sans-serif;
+}
+
+/* Style section for the inputs */
+.input-group
+{
+padding-top: 5px;
+padding-right: 10%;
+}
+
+/* Style section for the navbar */
+.navbar
+{
+background-color: #646464;
+}
+
+.navbar-brand
+{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item
+{
+padding: 0px 18px;
+}
+
+.nav-link
+{
+font-size: 1.2rem;
+font-family: "Montserrat-light"
+}
+
+.container-fluid
+{
+padding: 3% 15% 7%;
+}
+
+#widget_htm_250 
+{
+  padding-bottom: 7%;
+}
+
+table
+{
+border: 1px solid black;
+}
+
+table.center {
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+table.amortList {
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+margin-bottom:25px;
+border:1px solid black;
+border-collapse: collapse;
+}
+
+td.amort, tr.amort, th.amort {
+border: 1px solid black;
+text-align: center;
+}
+
+.slidecontainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.slider {
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  /*background: #d3d3d3;  Grey background */
+  /*outline: none;  Remove outline */
+}
+
+
+#erateWidget {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		width:300px;
+}
+#erateWidget table.ratesTable {
+		font-size:12px;
+		padding:2px;
+		margin:0px auto;
+		border-color:#b0c1d9;
+		width:100%;
+}
+	
+#erateWidget table.ratesTable td {
+		border-color:#b0c1d9;
+		font-size:12px;
+}
+	
+#erateWidget table.ratesTable th.top {
+		font-weight:bold;
+		color: #255488;
+		border-right: 1px solid #b0c1d9;
+		border-bottom: 1px solid #b0c1d9;
+		border-top: 1px solid #b0c1d9;
+		text-align: left;
+		padding: 2px;
+		background: #e2ecf9;
+		font-size:12px;
+}
+	
+#erateWidget table.ratesTable .left {
+		border-left: 1px solid #b0c1d9;
+		width:50%;
+		float:none;
+}
+	
+#erateWidget table.ratesTable th.tick {
+		color: #255488;
+		border-right: 1px solid #b0c1d9;
+		border-bottom: 1px solid #b0c1d9;
+		border-left: 1px solid #b0c1d9;
+		text-align: left;
+		border-top: none;
+		background: #ffffff;
+		padding: 2px;
+		font-weight: bold;
+		font-size:12px;
+}
+	
+#erateWidget table.ratesTable th.tick a {
+		color: #255488;
+		font-weight: bold;
+		font-size:12px;
+		text-decoration:none;
+}
+	
+#erateWidget table.ratesTable td {
+		border-right: 1px solid #b0c1d9;
+		border-bottom: 1px solid #b0c1d9;
+		background: #ffffff;
+		padding: 2px;
+		color: #333333;
+		text-align:center;
+}
+	
+	#erateWidget table.ratesTable th.tdcenter {
+		text-align:center;
+		width:25%;
+}
+	
+#erateWidget .caption {
+		padding: 4px 0px;
+		font-size: 12px;
+		text-align: center;
+		color: #333333;	
+}
+#erateWidget .caption a, #erateWidget .caption a:hover, #erateWidget .caption a:visited {
+		text-decoration:none;
+		color: #333333;
+}
